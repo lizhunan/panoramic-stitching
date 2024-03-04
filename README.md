@@ -32,7 +32,7 @@ The author's test environment is shown in the following table:
 ## How to Use
 
 1. Clone the code from Github.
-2. Use the following code to scale the image：
+2. Use the following code to scale the input image(left and right image)：
     ``` python
     size = 640 # image height
     height, width = left_image.shape[0], left_image.shape[1]
